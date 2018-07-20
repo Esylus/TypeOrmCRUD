@@ -1,0 +1,27 @@
+{
+   "name": "typeormcrud",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "nodemon --exec ts-node src/index.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "graphql-yoga": "^1.14.12",
+      "reflect-metadata": "^0.1.10",
+      "sqlite": "^2.9.2",
+      "sqlite3": "^4.0.2",
+      "typeorm": "0.2.7"
+   },
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "@types/ws": "^5.1.2",
+      "ts-node": "3.3.0",
+      "tslint": "^5.11.0",
+      "tslint-config-prettier": "^1.13.0",
+      "typescript": "2.5.2"
+   }
+}
